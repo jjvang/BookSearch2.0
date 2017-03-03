@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!--ImageView is same for all, can be implemented with book url in the future-->
+    <ImageView
+        android:id="@+id/imageURL"
+        android:src="@drawable/books"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:scaleType="centerCrop"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:background="@android:color/holo_blue_light"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="TEXT ME BRO"/>
+
+        <TextView
+            android:background="@android:color/holo_blue_dark"
+            android:id="@+id/author"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="TEXT ME BRO"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

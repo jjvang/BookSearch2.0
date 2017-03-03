@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">"Book Search 2.0 "</string>
+    <string name="action_search">Search Book</string>
+    <string name="app_label">Search</string>
+    <string name="search_hint">Search ;)</string>
+    <string name="no_internet_connection">No Internet, Please Check Internet Connection and Try Again</string>
+    <string name="search_me">CLICK THE SEARCH BUTTON ON THE TOP RIGHT AND BEGIN YOUR SEARCH</string>
+</resources>
